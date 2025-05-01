@@ -10,7 +10,7 @@ export const Pokemon = () => {
   const [types, setTypes] = useState([]);
   const [selectedType, setSelectedType] = useState("all");
 
-  const API = "https://pokeapi.co/api/v2/pokemon?limit=124";
+  const API = "https://pokeapi.co/api/v2/pokemon?limit=150";
 
   const fetchTypes = async () => {
     try {
