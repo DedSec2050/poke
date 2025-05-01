@@ -1,7 +1,13 @@
 import "./App.css";
+import Footer from "./Footer";
 import { Pokemon } from "./Pokemon";
 function App() {
-  return <Pokemon />;
+  return (
+    <>
+      <Pokemon />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
